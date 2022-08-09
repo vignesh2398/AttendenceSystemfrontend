@@ -38,7 +38,7 @@ export const TimeSheet = () => {
             if(iattendenceinput.data.statusCode===200)
             {
                 alert("timesheet updated")
-                navigate('/Viewtimesheet')
+                navigate('/')
                 
             }
             else
